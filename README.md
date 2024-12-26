@@ -1,7 +1,3 @@
-# KPISure! Below is a detailed GitHub README file for a project that implements Key Performance Indicators (KPIs) using Power BI. This README includes sections such as project description, prerequisites, installation steps, usage, functionalities, and more.
-
----
-
 # Key Performance Indicators (KPIs) Using Power BI
 
 ## Project Description
@@ -20,69 +16,20 @@ KPIs are essential in any business to track performance against targets, and thi
 - **Interactive Drill-through**: Allow users to drill down into specific KPI data to analyze the root cause of any performance issue.
 - **Sharing & Collaboration**: Publish reports to Power BI Service and share them with teams or embed them into websites or apps.
 
-## Prerequisites
+# Process
 
-Before getting started with this project, make sure you have the following:
-
-1. **Power BI Desktop**: Install Power BI Desktop to build and publish reports.
-   - Download Power BI Desktop from [Microsoft Power BI](https://powerbi.microsoft.com/desktop/).
-   
-2. **Power BI Service (Optional)**: You can also use Power BI Service for cloud-based reports and sharing.
-   - Sign up or log in to [Power BI Service](https://app.powerbi.com).
-
-3. **Data Sources**: Ensure that you have access to the required data sources (e.g., databases, Excel files, etc.) and necessary permissions to query them.
-
-4. **Basic Knowledge of Power BI**: Basic understanding of Power BI’s functionalities, including creating reports, visuals, and managing datasets.
-
-## Project Structure
-
-```
-KPIs-Using-PowerBI/
-├── data/
-│   ├── sales_data.xlsx
-│   ├── employee_performance.csv
-│   └── marketing_metrics.csv
-├── reports/
-│   ├── kpi_dashboard.pbix
-│   └── regional_kpis.pbix
-├── documentation/
-│   ├── powerbi_dashboard_guide.pdf
-│   └── data_sources_guide.md
-├── README.md
-└── LICENSE
-```
-
-### Directory Breakdown
-- **data/**: Contains sample data files used for building KPIs.
-- **reports/**: Contains Power BI (.pbix) files for KPI dashboards and reports.
-- **documentation/**: Includes guides for users on how to use Power BI dashboards and how to integrate data sources.
-- **README.md**: Project description and setup instructions.
-- **LICENSE**: Licensing information.
-
-## Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/KPIs-Using-PowerBI.git
-cd KPIs-Using-PowerBI
-```
-
-### 2. Install Power BI Desktop
-- Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-
-### 3. Load the Data
+### 1. Load the Data
 - Open Power BI Desktop.
 - Import the sample data provided in the `data/` folder using the following steps:
   - Go to **Home** → **Get Data** → **Excel** (or another data source type).
   - Choose the appropriate data files (e.g., `sales_data.xlsx`, `employee_performance.csv`).
   - Load the data into Power BI for further analysis.
 
-### 4. Build KPIs & Dashboards
+### 2. Build KPIs & Dashboards
 - Open the `.pbix` files located in the `reports/` folder.
 - You can modify the KPIs, change the visuals, and adjust filters as per your business needs.
 
-### 5. Publish to Power BI Service (Optional)
+### 3. Publish to Power BI Service (Optional)
 - Once your dashboard is ready, you can publish it to Power BI Service for sharing and collaboration.
   - Go to **File** → **Publish** → **To Power BI**.
   - Sign in to your Power BI account and publish the report to your workspace.
