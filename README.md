@@ -79,10 +79,7 @@ Here are some example KPIs that can be tracked using Power BI in this project:
 
 
 
-
-
-
-
+# Example Chart of KPI in Sales Market
 
 
 ![Screenshot 2024-12-25 230337](https://github.com/user-attachments/assets/a1c4cfdb-1998-42bc-a699-e5813f0ab5ad)
